@@ -1,0 +1,37 @@
+{
+  "name": "vertex-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@auth/pg-adapter": "^1.11.0",
+    "@nhost/nextjs": "^2.3.1",
+    "@nhost/react": "^3.11.2",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "graphql-request": "^7.3.1",
+    "mongodb": "^6.20.0",
+    "next": "15.5.5",
+    "next-auth": "^4.24.11",
+    "pg": "^8.16.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "5.9.3"
+  }
+}
